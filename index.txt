@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--cabezera-->
+    <header>
+        <div class="contenedor"> 
+            <div class="row">
+                <div class="twelve columns">
+                    <nav>
+                        <ul>
+                            <li><a href="#features">Servicio</a></li>
+                            <li><a href="#features">Productos</a></li>
+                            <li><a href="https://www.google.com/maps/search/veterinaria/@-17.8030368,-63.1998223,14.82z">Ubicacion</a></li>
+                            <li><a href="#contacto">Contactanos</a></li>
+                            <li><a href="noticias">Nosotros</a></li>
+                            <li><a href="#hero">Iniciar Sesion</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <section class="hero" id="hero"><!--seccion hero 2 -->
+            <div class="row">
+                <div class="one-half column">
+                    <h4>Registrate para obtener descuentos</h4>
+                    <p>Para acceder a ofertas en todos nuestros servicios y servicios. Puedes registrarte con tu numero de celular  </p>
+                    <a href="#" class="btn registrarte">Si, quiero registrarme</a>
+                </div>
+                <div class="row">
+                    <div class="one-half column">
+                        <img src="" alt="imagen">
+                    </div>
+                </div>
+            </div>
+        </section><!--fin de la seccion hero-->
+    </header>
+    <section class="features" id="features"><!--<section class="about"></section>-->
+        <div class="contenedor">
+            <div class="row">
+                <div class="three-columns ">
+                    <h4>Peluqueria y Spa</h4>
+                    <img src="" alt="imagen de spa"/>
+                    <p>Acede a los servicios de peluqueria y Spa para los peluditos de la familia</p>
+                </div>
+                <div class="three-columns ">
+                    <h4>Venta de Productos</h4>
+                    <img src="" alt="imagen de Productos"/>
+                    <p>Acede a los a los productos de mejor caida para los peluditos de la familia</p>
+                </div>
+                <div class="three-columns ">
+                    <h4>Diagnosticos y Tratamientos</h4>
+                    <img src="" alt="Diagostico tratamiento"/>
+                    <p>Acede a nuestos servicios de tratamiento y rehabilitacion de la mano especialistas en todas las areas</p>
+                </div>
+            </div>
+        </div>
+    </section><!--SECCION DE noticias 3-->
+    <section class="noticia"id="noticia">
+        <div class="row">            
+            <div class="one-half column">
+                <a href="https://elpais.com/videos/2023-03-06/video-una-ballena-de-17-metros-con-escoliosis-es-avistada-en-cullera.html?autoplay=1">
+                    <h4>Una ballena de 17 metros con escoliosis es avistada en Cullera</h4>
+                    <p>El rorcual fue localizado por una embarcación y, tras avisar a la Guardia Civil, se pudo socorrer al animal, que podría aparecer de nuevo</p>
+                </a>  
+            </div>
+            <div class="one-half column">
+                <img src="" alt="video"/>  
+            </div>         
+        </div>
+    </section><!--                  FIN DE LA SECCION DE NOTICIAS-->
+    <section class="sliderbar" id="slider"><!--SECTION SLIDEBAR -->
+        <div class="slider">
+          <ul class="slides">
+        </div><!--SERA EL FIN SECTION SLIDEBAR -->
+    </section>
+    <section class="contacto" id="contacto">
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                    <h4>REGISTRA TU CORREO PARA RECIBIR OFERTAS EN TU CORREO</h4>
+                    
+                </div>
+                <div class="row">
+                    <div class="three-column">
+                        <label for="juan@gmial.com">Tu correo</label>
+                        <input class="u-full-width" type="email" placeholder="juan@gmial.com" id="exampleEmailInput">
+                    </div>              
+                </div>
+                <div class="row">
+                    <div class="three-column">
+                        <label for="juan Perez">Tu nombre</label>
+                        <input class="u-full-width" type="email" placeholder="" id="exampleEmailInput">
+                    </div>              
+                </div>
+                <div class="row">
+                    <div class="three-column">
+                        <input class="btn" type="submit" value="Enviar">
+                    </div>              
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer" id="footer">
+        <div class="contenedor">
+            <div class="row">
+                <div class="twelve columns">
+                    <ul>
+                        <li><a href="#features">Servicio</a></li>
+                        <li><a href="#features">Productos</a></li>
+                        <li><a href="https://www.google.com/maps/search/veterinaria/@-17.8030368,-63.1998223,14.82z">Ubicacion</a></li>
+                        <li><a href="#contacto">Contactanos</a></li>
+                        <li><a href="noticias">Nosotros</a></li>
+                        <li><a href="#hero">Iniciar Sesion</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="twelve columns">
+                    <span><p>derechos@gmail.com</p></span>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>
